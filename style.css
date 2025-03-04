@@ -222,6 +222,7 @@ section{
     color: var(--white);
     font-size: 3.5rem;
     display: none;
+    background: transparent;
     
 }
 

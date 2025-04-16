@@ -1,9 +1,16 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+<<<<<<< HEAD
 
 require 'vendor/autoload.php';
 
+=======
+require 'vendor/autoload.php';
+
+
+
+>>>>>>> 0b1b470 (second cmmit)
 // Database Connection
 $servername = "localhost";
 $username = "u590136986_IWtwp";

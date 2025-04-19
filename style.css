@@ -212,6 +212,16 @@ section{
 
 /* Home */
 
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    
+}
+
 .hero{
     background-image: url('images/hero.jpg');
     border-radius: 20px;
@@ -224,6 +234,7 @@ section{
     align-items: center;
     text-align: center;
     position: relative;
+    animation: bounce 2s infinite;
 }
 
 .hero::before{
